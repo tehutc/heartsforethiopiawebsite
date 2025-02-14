@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-beige: 245, 230, 211;  /* #F5E6D3 */
+    --color-brown: 44, 24, 16;     /* #2C1810 */
+    --color-mauve: 137, 98, 98;    /* #896262 */
+    --color-wine: 114, 79, 79;     /* #724f4f */
+    --color-sage: 122, 139, 105;   /* #7A8B69 */
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(var(--color-beige));
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer components {
+  .fade-in {
+    @apply opacity-0 translate-y-4 transition-all duration-700;
+  }
+
+  .fade-in.appear {
+    @apply opacity-100 translate-y-0;
+  }
+
+  .btn-primary {
+    @apply bg-wine text-white px-6 py-3 rounded-md transition duration-300 font-semibold;
+  }
+
+  .btn-secondary {
+    @apply bg-sage text-white px-6 py-3 rounded-md hover:bg-sage/80 transition duration-300 font-semibold;
+  }
+}
