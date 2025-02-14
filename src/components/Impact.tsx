@@ -73,22 +73,22 @@ const impactData: Record<string, ImpactDetails> = {
 
 const impactPhotos = [
   {
-    url: "./assets/holeta/holeta12.jpeg",
+    url: "/assets/holeta/holeta12.jpeg",
     caption: "Community Development in Holeta",
     description: "Serving Christ by serving others"
   },
   {
-    url: "./assets/hawassa/hawassa4.jpeg",
+    url: "/assets/hawassa/hawassa4.jpeg",
     caption: "Providing Resources to the Blind Community",
     description: "Sharing God's Word through braille Bibles"
   },
   {
-    url: "./assets/holeta/holeta3.jpeg",
+    url: "/assets/holeta/holeta3.jpeg",
     caption: "Skills Training Programs",
     description: "Empowering through life skills education and faith"
   },
   {
-    url: "./assets/holeta/holeta2.jpeg",
+    url: "/assets/holeta/holeta2.jpeg",
     caption: "Local Partnership Initiatives",
     description: "Building His kingdom together"
   }
